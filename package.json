@@ -1,0 +1,26 @@
+{
+  "name": "jade-attr-loc",
+  "version": "1.0.0",
+  "description": "Add Jade code location information to all tags",
+  "keywords": [
+    "jade"
+  ],
+  "dependencies": {
+    "jade-walk": "0.0.2",
+    "js-stringify": "^1.0.2"
+  },
+  "devDependencies": {
+    "istanbul": "*",
+    "testit": "^2.0.2"
+  },
+  "scripts": {
+    "test": "node test && npm run coverage",
+    "coverage": "istanbul cover test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jadejs/jade-attr-loc.git"
+  },
+  "author": "Timothy Gu <timothygu99@gmail.com>",
+  "license": "MIT"
+}
