@@ -1,12 +1,13 @@
 {
-  "name": "jade-attr-loc",
-  "version": "1.0.0",
+  "name": "jade-plugin-debug-line",
+  "version": "0.0.0",
   "description": "Add Jade code location information to all tags",
   "keywords": [
-    "jade"
+    "jade",
+    "jade-plugin"
   ],
   "dependencies": {
-    "jade-walk": "0.0.2",
+    "jade-walk": "0.0.3",
     "js-stringify": "^1.0.2"
   },
   "devDependencies": {
@@ -19,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jadejs/jade-attr-loc.git"
+    "url": "https://github.com/jadejs/jade-plugin-debug-line.git"
   },
   "author": "Timothy Gu <timothygu99@gmail.com>",
   "license": "MIT"
