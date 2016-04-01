@@ -1,13 +1,13 @@
 {
-  "name": "jade-plugin-debug-line",
+  "name": "pug-plugin-debug-line",
   "version": "0.0.0",
-  "description": "Add Jade code location information to all tags",
+  "description": "Add Pug code location information to all tags",
   "keywords": [
-    "jade",
-    "jade-plugin"
+    "pug",
+    "pug-plugin"
   ],
   "dependencies": {
-    "jade-walk": "0.0.3",
+    "pug-walk": "0.0.3",
     "js-stringify": "^1.0.2"
   },
   "devDependencies": {
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jadejs/jade-plugin-debug-line.git"
+    "url": "https://github.com/pugjs/pug-plugin-debug-line.git"
   },
   "author": "Timothy Gu <timothygu99@gmail.com>",
   "license": "MIT"

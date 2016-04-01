@@ -1,6 +1,6 @@
 'use strict';
 
-var walk = require('jade-walk');
+var walk = require('pug-walk');
 var stringify = require('js-stringify');
 
 module.exports = function (options) {
@@ -10,9 +10,9 @@ module.exports = function (options) {
       walk(ast, function (node, replace) {
         if (node.type === 'Tag' || node.type === 'InterpolatedTag') {
           [
-            { name: 'data-jade-file', val: node.filename, mustEscape: true },
-            { name: 'data-jade-line', val: node.line, mustEscape: false },
-            { name: 'data-jade-column', val: node.column, mustEscape: false }
+            { name: 'data-pug-file', val: node.filename, mustEscape: true },
+            { name: 'data-pug-line', val: node.line, mustEscape: false },
+            { name: 'data-pug-column', val: node.column, mustEscape: false }
           ].forEach(function (attr) {
             if (attr.val === undefined) return;
             var alreadyExisted = findAttr(node.attrs, attr.name);
